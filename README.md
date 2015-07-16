@@ -12,5 +12,5 @@ Email us at hello@codecov.io or tweet [@codecov](https://twitter.com/codecov)
 - **Uploaders**
   - Bash [codecov/codecov-bash](https://github.com/codecov/codecov-bash)
   - Ruby [codecov/codecov-ruby](https://github.com/codecov/codecov-ruby)
-  - Pyhton [codecov/codecov-python](https://github.com/codecov/codecov-python)
+  - Python [codecov/codecov-python](https://github.com/codecov/codecov-python)
   - Node [cainus/codecov.io](https://github.com/cainus/codecov.io)
