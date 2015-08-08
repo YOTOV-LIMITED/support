@@ -5,9 +5,24 @@
 
 Welcome! Have questions or feature requests for Codecov in general? Create an issue in this repo.
 
-Email us at hello@codecov.io or tweet [@codecov](https://twitter.com/codecov)
+## Leave your feedback
+- [Twitter](https://twitter.com/codecov)
+- [Google+](https://plus.google.com/104298400123069697768)
+- [Chrome Extension](https://chrome.google.com/webstore/detail/codecov-extension/keefkhehidemnokodkdkejapdgfjmijf)
+- [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/codecov-extension/)
 
-### Specific Products
+## Follow/Chat with Codecov
+- [Blog](http://blog.codecov.io) `coming soon`
+- [Gitter](https://gitter.im/codecov/support)
+- [Twitter](https://twitter.com/codecov)
+- [Github](https://github.com/codecov/support)
+- [Email](mailto:hello@codecov.io)
+
+## Codecov for Enterprise
+[Learn more here](https://github.com/codecov/enterprise/wiki)
+
+
+## Specific Products
 - **Browser Extensions** [codecov/browser-extension](https://github.com/codecov/browser-extension)
 - **Uploaders**
   - Bash [codecov/codecov-bash](https://github.com/codecov/codecov-bash)
