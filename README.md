@@ -1,6 +1,8 @@
 # Codecov Support
 
-[![Join the chat at https://gitter.im/codecov/support](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/codecov/support?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+- [![Join the chat at https://gitter.im/codecov/support](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/codecov/support?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+- IRC #codecov on freenode.net
+
 > This repo is used for support, feature requests, QA and FAQ
 
 Welcome! Have questions or feature requests for Codecov in general? Create an issue in this repo.
@@ -13,6 +15,7 @@ Welcome! Have questions or feature requests for Codecov in general? Create an is
 
 ## Follow/Chat with Codecov
 - [Blog](http://blog.codecov.io) `coming soon`
+- IRC #codecov on freenode.net
 - [Gitter](https://gitter.im/codecov/support)
 - [Twitter](https://twitter.com/codecov)
 - [Github](https://github.com/codecov/support)
