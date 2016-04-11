@@ -1,5 +1,5 @@
 <div class="ui container">
-  <div class="ui divided grid">
+  <div class="ui divided stackable grid">
     <div class="column three wide spacing">
       <div class="ui sticky spacing">
         <div class="ui link list">
