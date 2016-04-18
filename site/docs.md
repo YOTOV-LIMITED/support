@@ -13,7 +13,10 @@
           <a href="#multilingual" class="item">Multilingual</a>
           <a href="#collaboration" class="item">Collaboration</a>
           <a href="#configuration" class="item">Configuration</a>
+          <a href="#yaml_default_branch" class="item">Default Branch</a>
+          <a href="#yaml_default_commit_status" class="item">Default Commit Statuses</a>
           <a href="#flags" class="item">Coverage Flags</a>
+          <a href="#fixing_paths" class="item">Fixing Paths</a>
           <a href="#api" class="item">API</a>
         </div>
         <h3>Caveats</h3>
@@ -44,6 +47,7 @@
     <div class="column eleven wide spacing">
       <div>
         <h1 id="overview"><a href="#overview" class="anchor">&para;</a> Overview</h1>
+        <p>Thank you for choosing Codecov. We work hard to provide a powerful solution to help your team test analyze coverage reports.</p>
       </div>
       <div class="ui more spacing divider"></div>
       <div>
@@ -54,6 +58,7 @@
         </p>
         <p>Click on your language to view a full repository example and documentation specifics.</p>
         <div class="ui horizontal bulleted list">
+          <!-- [languages] -->
           <a class="item" href="https://github.com/codecov/example-bash">Bash</a>
           <a class="item" href="https://github.com/codecov/example-c">C</a>
           <a class="item" href="https://github.com/codecov/example-clojure">Clojure</a>
@@ -281,6 +286,66 @@ X-RateLimit-Reset: 1460321144</pre>
       </div>
       <div class="ui more spacing divider"></div>
       <div>
+        <h1 id="yaml_default_branch"><a href="#yaml_default_branch" class="anchor">&para;</a> Default Branch</h1>
+        <p>You can specify a custom default branch which is only used in the UI for nagigation.</p>
+        <p>Change your default branch in your <code>codecov.yml</code></p>
+        <pre class="data"><span class="kc">codecov:</span>
+  <span class="kc">branch:</span> <strong>develop</strong></pre>
+
+      </div>
+      <div class="ui more spacing divider"></div>
+      <div>
+        <h1 id="yaml_default_commit_status"><a href="#yaml_default_commit_status" class="anchor">&para;</a> Default Commit Status</h1>
+        <p>
+          Codecov will enable three unique commit statuses by default (as seen below).
+          You can disable, change or create statuses at your own discression.
+        </p>
+        <pre><span class="kc">coverage:</span>
+  <span class="kc">status:</span>
+    <span class="kc">project:</span>
+      <span class="kc">default:</span>  <span class="o"># status context</span>
+        <span class="kc">target:</span> <span class="s">auto</span>
+        <span class="kc">threshold:</span> <span class="o">null</span>
+    <span class="kc">patch:</span>
+      <span class="kc">default:</span>
+        <span class="kc">target:</span> <span class="s">auto</span>
+        <span class="kc">threshold:</span> <span class="o">null</span>
+    <span class="kc">changes:</span>
+      <span class="kc">default:</span>
+        <span class="kc">target:</span> <span class="s">auto</span></pre>
+        <p>
+          This setup will produce the following statuses
+          <ul>
+            <li><code>codecov/project</code>,</li>
+            <li><code>codecov/patch</code>,</li>
+            <li><code>codecov/changes</code></li>
+          </ul>
+        </p>
+        <p>
+          You can adjust the <code>default</code> statuses or create your own.
+          When you create your own you'll apply a custom context label.
+        </p>
+        <pre><span class="kc">coverage:</span>
+  <span class="kc">status:</span>
+    <span class="kc">project:</span>
+      <span class="kc">default:</span> <span class="o">false</span>
+      <span class="kc">unit:</span>
+        <span class="kc">threshold:</span> <span class="s">"1.25%"</span>
+        <span class="kc">flags:</span>
+          <span class="s">- unittests</span>
+      <span class="kc">handlers:</span>
+        <span class="kc">paths:</span>
+          <span class="s">- "app/handlers"</span></pre>
+        <p>
+          Codecov will then post the following statuses:
+          <ul>
+            <li><code>codecov/project/unit</code> concerning only unittests metrics,</li>
+            <li><code>codecov/project/handlers</code> concerning only coverage data found in the directory <code>app/handlers</code></li>
+          </ul>
+        </p>
+      </div>
+      <div class="ui more spacing divider"></div>
+      <div>
         <h1 id="flags"><a href="#flags" class="anchor">&para;</a> Flags</h1>
         <p>
           Flags are used to group coverage data for advanced tracking. Below are some common
@@ -332,6 +397,23 @@ X-RateLimit-Reset: 1460321144</pre>
         </p>
         <p>Codecov will submit a notification to your Slack channel with metrics concerning <code>frontend</code> <code>unittests</code> only.</p>
 
+      </div>
+      <div class="ui more spacing divider"></div>
+      <div>
+        <h1 id="fixing_paths"><a href="#fixing_paths" class="anchor">&para;</a> Fixing Paths</h1>
+        <p>
+          Coverage reports often do not have accurate relative paths to your repository files.
+          Codecov will attempt to fix these paths, and typically is successful at doing so.
+          But some projects have complex path names and Codecov is unable to fix the path properly.
+        </p>
+        <p>
+          To fix your paths you'll need to provide Codecov with a map of where paths should be fixed to.
+        </p>
+        <pre class="data src"><span class="kc">coverage:</span>
+  <span class="kc">fixes:</span>
+    <span class="s">- ::add/this/</span>  <span class="c"># before=file.js after=add/this/file.js</span>
+    <span class="s">- remove/this/::</span>  <span class="c"># before=remove/this/file.js after=file.js</span>
+    <span class="s">- move/this/::to/that</span>  <span class="c"># before=move/this/file.js after=to/that/file.js</span></pre>
       </div>
       <div class="ui more spacing divider"></div>
       <div>
