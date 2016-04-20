@@ -1,5 +1,8 @@
 # Codecov Security
 
+> v1.0.0 - Edit on [GitHub](https://github.com/codecov/support/blob/master/site/security.md)
+
+
 #### Contents
 1. [How does Codecov authenticate access to repository?](#how-does-codecov-authenticate-access-to-a-repository)
 1. [How does Codecov store passwords?](#how-does-codecov-store-passwords)
@@ -8,7 +11,7 @@
 1. [Is my team data isolated from other teams?](#is-my-team-data-isolated-from-other-teams)
 1. [How do I add collaborators/members to my private repository?](#how-do-i-add-collaboratorsmembers-to-my-private-repository)
 1. [When does Codecov read source code from my repository?](#when-does-codecov-read-source-code-from-my-repository)
-1. [When does Codecov ever clone the repository?](#when-does-codecov-ever-clone-the-repository)
+1. [Does Codecov ever clone the repository?](#does-codecov-ever-clone-the-repository)
 1. [When does Codecov write to my repository?](#when-does-codecov-write-to-my-repository)
 1. [How long are uploaded reports archived for?](#how-long-are-uploaded-reports-archived-for)
 1. [Are logs kept on who access what data on Codecov?](#are-logs-kept-on-who-access-what-data-on-codecov)
@@ -116,7 +119,7 @@ Codecov extended privileged which enable the User to interact with **Private Rep
 No. This is currently a limitation to GitHub (and all other Services).
 This feature would have to be implemented by the Service and not in Codecov.
 
-## When does Codecov ever clone the repository?
+## Does Codecov ever clone the repository?
 No, never. Codecov uses API requests to retrieve information necessary to perform it job and never stores source code in the result of an API request.
 
 ## When does Codecov read source code from my repository?
@@ -173,6 +176,3 @@ Most Repo configuration is recorded in a file called `codecov.yml` within the Re
 The location of this configuration file may be anywhere within the Repo and must be named `codecov.yml` or `.codecov.yml` in order to be detected.
 Having configuration stored in the `codecov.yml` allows for complete transparency and version controlled configuration.
 For more details please visit http://localhost:8888/docs#configuration
-
-
-> v1.0.0 - View history at https://github.com/codecov/support/blob/master/site/security.md

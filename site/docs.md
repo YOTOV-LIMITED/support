@@ -46,12 +46,12 @@
     </div>
     <div class="column eleven wide spacing">
       <div>
-        <h1 id="overview"><a href="#overview" class="anchor">&para;</a> Overview</h1>
+        <h1 id="overview"><a href="#overview" class="anchor">&infin;</a> Overview</h1>
         <p>Thank you for choosing Codecov. We work hard to provide a powerful solution to help your team test analyze coverage reports.</p>
       </div>
       <div class="ui more spacing divider"></div>
       <div>
-        <h1 id="languages"><a href="#languages" class="anchor">&para;</a> Languages</h1>
+        <h1 id="languages"><a href="#languages" class="anchor">&infin;</a> Languages</h1>
         <p>
           Codecov supports all major languages and continues to add support for new languages with community support. Thank you!
           We also support <b>multiple languages in a single repository</b> <a href="#multilingual">learn more here</a>.
@@ -87,7 +87,7 @@
       </div>
       <div class="ui more spacing divider"></div>
       <div>
-        <h1 id="multilingual"><a href="#multilingual" class="anchor">&para;</a> Multilingual</h1>
+        <h1 id="multilingual"><a href="#multilingual" class="anchor">&infin;</a> Multilingual</h1>
         <p>
           Codecov supports multiple langauges in the same repository.
           You may upload reports for one or more languages and Codecov will merge the reports automatically
@@ -117,7 +117,7 @@
       </div>
       <div class="ui more spacing divider"></div>
       <div>
-        <h1 id="collaboration"><a href="#collaboration" class="anchor">&para;</a> Collaboration</h1>
+        <h1 id="collaboration"><a href="#collaboration" class="anchor">&infin;</a> Collaboration</h1>
         <p>
           No setup necessary. Codecov uses GitHub/Bitbucket/GitLab API's to authorize users.
         </p>
@@ -129,21 +129,21 @@
       <div>
       <div class="ui more spacing divider"></div>
       <div>
-        <h1 id="configuration"><a href="#configuration" class="anchor">&para;</a> Configuration</h1>
+        <h1 id="configuration"><a href="#configuration" class="anchor">&infin;</a> Configuration</h1>
         <p>Codecov searches for a <code>codecov.yml</code> within your repo to customize the products behavior.</p>
         <p>
           The <code>codecov.yml</code> is a file within your repository that
           confugres Codecov to operate in a flexable and customized fasion.
         </p>
 
-        <h3 id="yaml-file-location"><a href="#yaml-file-location" class="anchor">&para;</a> File Location</h3>
+        <h3 id="yaml-file-location"><a href="#yaml-file-location" class="anchor">&infin;</a> File Location</h3>
         <p>
           The default location for your yaml file is in the root directory of your repository: <code>./codecov.yml</code>.
           You may place the file inside any sub directory within your project and Codecov will discover the file automatically.
           The file must be named <code>codecov.yml</code> or <code>.codecov.yml</code> in order to be discovered.
         </p>
 
-        <h3 id="yaml-inheritance"><a href="#yaml-inheritance" class="anchor">&para;</a> Inheritance</h3>
+        <h3 id="yaml-inheritance"><a href="#yaml-inheritance" class="anchor">&infin;</a> Inheritance</h3>
         <p>Repository configuration inherits and overrides the content found in the teams codecov.yml and the default configuration provided by Codecov.</p>
         <div class="ui small steps">
           <div class="step">
@@ -168,7 +168,7 @@
           </div>
         </div>
 
-        <h3 id="yaml-validation"><a href="#yaml-validation" class="anchor">&para;</a> Validation</h3>
+        <h3 id="yaml-validation"><a href="#yaml-validation" class="anchor">&infin;</a> Validation</h3>
         <p>
           The structure of <code>codecov.yml</code> is strict and parsing will raise errors if extra data or invalid values are provided.
           Codecov will warn the commit author of issues in the yaml file.
@@ -178,13 +178,13 @@
           <pre class="data">curl -X POST -d @codecov.yml https://codecov.io/validate <a href="#" class="float-right" data-clipboard-text="curl -X POST -d @codecov.yml https://codecov.io/validate">Copy</a></pre>
         </div>
 
-        <h3 id="yaml-structure"><a href="#yaml-structure" class="anchor">&para;</a>Structure</h3>
+        <h3 id="yaml-structure"><a href="#yaml-structure" class="anchor">&infin;</a>Structure</h3>
         <div class="ui info message">An interactive documentation is found on your repository setting page.</div>
         <!-- <script src="https://gist.github.com/stevepeak/53bee7b2c326b24a9b4a.js"></script> -->
       </div>
       <div class="ui more spacing divider"></div>
       <div>
-        <h1 id="api"><a href="#api" class="anchor">&para;</a> API</h1>
+        <h1 id="api"><a href="#api" class="anchor">&infin;</a> API</h1>
         <p>
           Codecov implements a simple approach to API's.
         </p>
@@ -193,7 +193,7 @@
         </p>
         <pre class="data src">curl https://codecov.io/<b>api/</b>gh/codecov/example-python</pre>
 
-        <h2 id="api-pagination"><a href="#api-endpoints" class="anchor">&para;</a> Pagination</h2>
+        <h2 id="api-pagination"><a href="#api-endpoints" class="anchor">&infin;</a> Pagination</h2>
         <p>
           Endpoints that query multiple results have pagination implemented.
           You can specify what page and limit in the url query.
@@ -201,7 +201,7 @@
         <p>Specify a page number <code>?page=:int</code></p>
         <p>Specify numer of results in page <code>?limit=:int</code></p>
 
-        <h2 id="api-authorization"><a href="#api-authorization" class="anchor">&para;</a> Authorization</h2>
+        <h2 id="api-authorization"><a href="#api-authorization" class="anchor">&infin;</a> Authorization</h2>
         <p>
           Provide a API access token to retrieve content relative to your account.
         </p>
@@ -217,7 +217,7 @@
         </p>
 
 
-        <h2 id="api-rate-limit"><a href="#api-rate-limit" class="anchor">&para;</a> Rate Limit</h2>
+        <h2 id="api-rate-limit"><a href="#api-rate-limit" class="anchor">&infin;</a> Rate Limit</h2>
         <p>We currently do not rate limit API requests, but may implement a system in the future.</p>
         <!--
         <p>
@@ -229,7 +229,7 @@ X-RateLimit-Limit: 1000
 X-RateLimit-Reset: 1460321144</pre>
         -->
 
-        <h2 id="api-endpoints"><a href="#api-endpoints" class="anchor">&para;</a> Endpoints</h2>
+        <h2 id="api-endpoints"><a href="#api-endpoints" class="anchor">&infin;</a> Endpoints</h2>
         <div class="ui link list">
           <a class="item" href="#api-teams">Teams</a>
           <a class="item" href="#api-team">Team</a>
@@ -243,50 +243,50 @@ X-RateLimit-Reset: 1460321144</pre>
           <a class="item" href="#api-compare">Compare</a>
         </div>
 
-        <h3 id="api-teams"><a href="#api-teams" class="anchor">&para;</a> Teams</h3>
+        <h3 id="api-teams"><a href="#api-teams" class="anchor">&infin;</a> Teams</h3>
         <p>List all the teams you are member of.</p>
         <pre class="data">GET /api/:service</pre>
 
-        <h3 id="api-team"><a href="#api-team" class="anchor">&para;</a> Repositories</h3>
+        <h3 id="api-team"><a href="#api-team" class="anchor">&infin;</a> Repositories</h3>
         <p>List repositories and team statistics.</p>
         <pre class="data">GET /api/:service/:owner</pre>
 
-        <h3 id="api-repository"><a href="#api-repository" class="anchor">&para;</a> Repository</h3>
+        <h3 id="api-repository"><a href="#api-repository" class="anchor">&infin;</a> Repository</h3>
         <p>Get repository details and latest commit on default branch.</p>
         <pre class="data">GET /api/:service/:owner/:repo</pre>
 
-        <h3 id="api-commits"><a href="#api-commits" class="anchor">&para;</a> Commits</h3>
+        <h3 id="api-commits"><a href="#api-commits" class="anchor">&infin;</a> Commits</h3>
         <p>List commits on all branches and pulls.</p>
         <pre class="data">GET /api/:service/:owner/:repo/commits</pre>
 
-        <h3 id="api-commit"><a href="#api-commit" class="anchor">&para;</a> Commit</h3>
+        <h3 id="api-commit"><a href="#api-commit" class="anchor">&infin;</a> Commit</h3>
         <p>Get a single commit and all coverage details.</p>
         <pre class="data">GET /api/:service/:owner/:repo/commit/:sha</pre>
 
-        <h3 id="api-branches"><a href="#api-branches" class="anchor">&para;</a> Branches</h3>
+        <h3 id="api-branches"><a href="#api-branches" class="anchor">&infin;</a> Branches</h3>
         <p>List branches on a repository.</p>
         <pre class="data">GET /api/:service/:owner/:repo/branches</pre>
 
-        <h3 id="api-branch"><a href="#api-branch" class="anchor">&para;</a> Branch</h3>
+        <h3 id="api-branch"><a href="#api-branch" class="anchor">&infin;</a> Branch</h3>
         <p>Get the head commit on a branch.</p>
         <pre class="data">GET /api/:service/:owner/:repo/branch/:name</pre>
 
-        <h3 id="api-pulls"><a href="#api-pulls" class="anchor">&para;</a> Pulls</h3>
+        <h3 id="api-pulls"><a href="#api-pulls" class="anchor">&infin;</a> Pulls</h3>
         <p>Get commits on a pull request.</p>
         <pre class="data">GET /api/:service/:owner/:repo/pulls</pre>
 
-        <h3 id="api-pull"><a href="#api-pull" class="anchor">&para;</a> Pull</h3>
+        <h3 id="api-pull"><a href="#api-pull" class="anchor">&infin;</a> Pull</h3>
         <p>Get a single pull request.</p>
         <pre class="data">GET /api/:service/:owner/:repo/pulls/:pullid</pre>
 
-        <h3 id="api-compare"><a href="#api-compare" class="anchor">&para;</a> Compare</h3>
+        <h3 id="api-compare"><a href="#api-compare" class="anchor">&infin;</a> Compare</h3>
         <p>List commits and coverage details between two references.</p>
         <pre class="data">GET /api/:service/:owner/:repo/compare/:base...:head</pre>
 
       </div>
       <div class="ui more spacing divider"></div>
       <div>
-        <h1 id="yaml_default_branch"><a href="#yaml_default_branch" class="anchor">&para;</a> Default Branch</h1>
+        <h1 id="yaml_default_branch"><a href="#yaml_default_branch" class="anchor">&infin;</a> Default Branch</h1>
         <p>You can specify a custom default branch which is only used in the UI for nagigation.</p>
         <p>Change your default branch in your <code>codecov.yml</code></p>
         <pre class="data"><span class="kc">codecov:</span>
@@ -295,7 +295,7 @@ X-RateLimit-Reset: 1460321144</pre>
       </div>
       <div class="ui more spacing divider"></div>
       <div>
-        <h1 id="yaml_default_commit_status"><a href="#yaml_default_commit_status" class="anchor">&para;</a> Default Commit Status</h1>
+        <h1 id="yaml_default_commit_status"><a href="#yaml_default_commit_status" class="anchor">&infin;</a> Default Commit Status</h1>
         <p>
           Codecov will enable three unique commit statuses by default (as seen below).
           You can disable, change or create statuses at your own discression.
@@ -346,13 +346,13 @@ X-RateLimit-Reset: 1460321144</pre>
       </div>
       <div class="ui more spacing divider"></div>
       <div>
-        <h1 id="flags"><a href="#flags" class="anchor">&para;</a> Flags</h1>
+        <h1 id="flags"><a href="#flags" class="anchor">&infin;</a> Flags</h1>
         <p>
           Flags are used to group coverage data for advanced tracking. Below are some common
           practices implementing flags.
         </p>
 
-        <h3 id="flags-scope"><a href="#flags-scope" class="anchor">&para;</a> Test Scopes</h3>
+        <h3 id="flags-scope"><a href="#flags-scope" class="anchor">&infin;</a> Test Scopes</h3>
         <p><code>unittests</code>, <code>integration</code>, <code>regression</code>, <code>api</code> etc.</p>
         <p>Customers whom group tests in categories above should append the desired flag during uploading.<p>
         <pre class="data src"><span class="o">$</span> coverage run tests/unittests
@@ -375,7 +375,7 @@ X-RateLimit-Reset: 1460321144</pre>
         </p>
         <p>Codecov will post a status specifically for <code>unittests</code> with the context <code>codecov/project/a_custom_title</code>.</p>
 
-        <h3 id="flags-group"><a href="#flags-group" class="anchor">&para;</a> Grouping Projects</h3>
+        <h3 id="flags-group"><a href="#flags-group" class="anchor">&infin;</a> Grouping Projects</h3>
         <p></p>
         <p>
           In you <code>codecov.yml</code> you can no create custom notifications or statuses based entirly on one or more flags.
@@ -400,7 +400,7 @@ X-RateLimit-Reset: 1460321144</pre>
       </div>
       <div class="ui more spacing divider"></div>
       <div>
-        <h1 id="fixing_paths"><a href="#fixing_paths" class="anchor">&para;</a> Fixing Paths</h1>
+        <h1 id="fixing_paths"><a href="#fixing_paths" class="anchor">&infin;</a> Fixing Paths</h1>
         <p>
           Coverage reports often do not have accurate relative paths to your repository files.
           Codecov will attempt to fix these paths, and typically is successful at doing so.
@@ -417,7 +417,7 @@ X-RateLimit-Reset: 1460321144</pre>
       </div>
       <div class="ui more spacing divider"></div>
       <div>
-        <h1 id="github-scope-policy"><a href="#github-scope-policy" class="anchor">&para;</a> GitHub Scope Policy</h1>
+        <h1 id="github-scope-policy"><a href="#github-scope-policy" class="anchor">&infin;</a> GitHub Scope Policy</h1>
         <p>
           Upon first logging into Codecov we ask for the folling scope (considered "public" scope).
           We request the following scopes from GitHub:
@@ -436,7 +436,7 @@ X-RateLimit-Reset: 1460321144</pre>
       </div>
       <div class="ui more spacing divider"></div>
       <div>
-        <h1 id="bitbucket-compare"><a href="#bitbucket-compare" class="anchor">&para;</a> Bitbucket Compare</h1>
+        <h1 id="bitbucket-compare"><a href="#bitbucket-compare" class="anchor">&infin;</a> Bitbucket Compare</h1>
         <p>
           Bitbucket currently <strong>does not support</strong> retrieving a diff between two commit references.
           This lack of support is <strong>crucial</strong> to many of Codecov's internal operations.
