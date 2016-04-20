@@ -27,14 +27,14 @@
         <h3>Meta</h3>
         <div class="ui link list">
           <a href="https://github.com/codecov" class="item">Contribute</a>
-          <a href="/branding" class="item">Branding and Logos</a>
+          <!-- <a href="/branding" class="item">Branding and Logos</a> -->
           <a href="/pricing" class="item">Pricing</a>
           <a href="http://shop.codecov.io" class="item">Shop</a>
-          <a href="http://blog.codecov.io" class="item">Blog</a>
+          <a href="http://shop.codecov.io/blog" class="item">Blog</a>
         </div>
         <h3>Site</h3>
         <div class="ui link list">
-          <a href="/stie/changelog" class="item">Changes</a>
+          <a href="/site/changelog" class="item">Changes</a>
           <a href="/site/privacy" class="item">Privacy Policy</a>
           <a href="/site/terms" class="item">Terms of Use</a>
           <a href="/site/security" class="item">Security</a>
