@@ -1,5 +1,6 @@
 # Codecov Privacy Policy
-> v2.0.0 effective April 24th, 2016
+
+> v2.0.0 - effective April 24th, 2016 - [History on GitHub](https://github.com/codecov/support/blob/master/site/privacy.md)
 
 Thank you for visiting Codecov.io (our “Site”). Whether you are checking out our offerings or actively using our services (collectively, the “Services”), your privacy is important to us. As such, we provide this privacy policy (“Privacy Policy”) to describe our online information practice and the choices you can make about the way your information is collected and used by us.
 
@@ -72,7 +73,3 @@ From time to time, we may update this Privacy Policy. We will notify you about m
 Any feedback on new features or suggested improvements to Codecov is awesome! Contact us with any such suggestions or any other comments or concerns. We care about your opinion and we welcome your feedback so that we can provide the most efficient and effective service as possible. https://codecov.io/support
 
 > We value your trust in our team. We will honor our commitment to provide an awesome & secure product.
-
----
-
-> View Privacy Policy history at https://github.com/codecov/support/blob/master/site/privacy.md
