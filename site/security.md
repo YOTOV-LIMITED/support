@@ -43,7 +43,7 @@
 
 ## How does Codecov authenticate access to a repository?
 - **Public** Repos are visible to all Users and Guests
-- **Private** Repos are visible to Users who have at least `read` according to Service
+- **Private** Repos are visible to Users who have at least `read` access according to Service
 - Codecov checks the User's Scope by making an API request with the User's Token
 - If the User **does not** have at least `read` access to the Repo: Codecov will return a 404 HTTP Error
 - Codecov **always** uses the acting User's Token to make API requests to Service *when navigating Codecov*
