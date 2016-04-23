@@ -199,7 +199,7 @@
           You can specify what page and limit in the url query.
         </p>
         <p>Specify a page number <code>?page=:int</code></p>
-        <p>Specify numer of results in page <code>?limit=:int</code></p>
+        <p>Specify number of results in page <code>?limit=:int</code></p>
 
         <h2 id="api-authorization"><a href="#api-authorization" class="anchor">&infin;</a> Authorization</h2>
         <p>
