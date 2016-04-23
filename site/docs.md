@@ -287,7 +287,7 @@ X-RateLimit-Reset: 1460321144</pre>
       <div class="ui more spacing divider"></div>
       <div>
         <h1 id="yaml_default_branch"><a href="#yaml_default_branch" class="anchor">&infin;</a> Default Branch</h1>
-        <p>You can specify a custom default branch that is only used in the UI for nagigation.</p>
+        <p>You can specify a custom default branch that is only used in the UI for navigation.</p>
         <p>Change your default branch in your <code>codecov.yml</code></p>
         <pre class="data"><span class="kc">codecov:</span>
   <span class="kc">branch:</span> <strong>develop</strong></pre>
