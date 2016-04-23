@@ -101,16 +101,16 @@
         <pre class="data src"><span class="o">$</span> coverage run tests/
 <span class="o">$</span> istanbul cover ./node_modules/mocha/bin/_mocha
 <span class="o">$</span> bash &lt;(curl -s https://codecov.io/bash)</pre>
-        <p><small>Codeov found and uploaded <code>python::coverage.xml</code> and <code>javascript::coverage.json</code></small></p>
+        <p><small>Codecov found and uploaded <code>python::coverage.xml</code> and <code>javascript::coverage.json</code></small></p>
         <h5>Multiple upload example</h5>
         <pre class="data src"><span class="c"># container 1</span>
 <span class="o">$</span> coverage run tests/
 <span class="o">$</span> bash &lt;(curl -s https://codecov.io/bash)</pre>
-        <p><small>Codeov found and uploaded <code>python::coverage.xml</code></small></p>
+        <p><small>Codecov found and uploaded <code>python::coverage.xml</code></small></p>
         <pre class="data src"><span class="c"># container 2</span>
 <span class="o">$</span> istanbul cover ./node_modules/mocha/bin/_mocha
 <span class="o">$</span> bash &lt;(curl -s https://codecov.io/bash)</pre>
-        <p><small>Codeov found and uploaded <code>javascript::coverage.json</code></small></p>
+        <p><small>Codecov found and uploaded <code>javascript::coverage.json</code></small></p>
 
         <p>In both examples above your repository will show reports from Javascript and Python, together.</p>
 
