@@ -60,7 +60,7 @@
   The key used to encrypt Tokens is broken into three chunks stored in different locations
   in the Stack to reduce a single point of failure. In order to compromise Tokens an attacker
   must breach multiple levels of the Codecov Stack (database, source code, server environment, and more)
-- Only Codecov staff has access to User Tokens
+- Only Codecov staff have access to User Tokens
 - Tokens are aggressively removed from any logs and tracebacks and are never sent to 3rd Party solutions
 
 ## Does Codecov store source code?
