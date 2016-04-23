@@ -133,7 +133,7 @@
         <p>Codecov searches for a <code>codecov.yml</code> within your repo to customize the product's behavior.</p>
         <p>
           The <code>codecov.yml</code> is a file within your repository that
-          confugres Codecov to operate in a flexible and customized fashion.
+          configures Codecov to operate in a flexible and customized fashion.
         </p>
 
         <h3 id="yaml-file-location"><a href="#yaml-file-location" class="anchor">&infin;</a> File Location</h3>
