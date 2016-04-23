@@ -84,7 +84,7 @@ codecov:
 ```
 
 ## How does Codecov archive reports?
-Codecov archives both the pre-processed reports (preventing vendor-lockin and to verifying report accuracy)
+Codecov archives both the pre-processed reports (preventing vendor-lockin and verifying report accuracy)
 and the post-processed reports (which never contain source code) in AWS S3.
 Archives are **accessible publicly** to Users who have access to the encrypted location of the content.
 The location is kept secret in a way that is nearly impossible to find by an unauthorized users.
