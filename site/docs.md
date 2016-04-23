@@ -298,7 +298,7 @@ X-RateLimit-Reset: 1460321144</pre>
         <h1 id="yaml_default_commit_status"><a href="#yaml_default_commit_status" class="anchor">&infin;</a> Default Commit Status</h1>
         <p>
           Codecov will enable three unique commit statuses by default (as seen below).
-          You can disable, change or create statuses at your own discretion.
+          You can disable, change, or create statuses at your own discretion.
         </p>
         <pre><span class="kc">coverage:</span>
   <span class="kc">status:</span>
