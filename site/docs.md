@@ -47,13 +47,13 @@
     <div class="column eleven wide spacing">
       <div>
         <h1 id="overview"><a href="#overview" class="anchor">&infin;</a> Overview</h1>
-        <p>Thank you for choosing Codecov. We work hard to provide a powerful solution to help your team test analyze coverage reports.</p>
+        <p>Thank you for choosing Codecov. We work hard to provide a powerful solution to help your team test !!!Please clarify. "test analyze" makes no sense to me!!! analyze coverage reports.</p>
       </div>
       <div class="ui more spacing divider"></div>
       <div>
         <h1 id="languages"><a href="#languages" class="anchor">&infin;</a> Languages</h1>
         <p>
-          Codecov supports all major languages and continues to add support for new languages with community support. Thank you!
+          Codecov supports all major languages and continues to add new languages with community support. Thank you!
           We also support <b>multiple languages in a single repository</b> <a href="#multilingual">learn more here</a>.
         </p>
         <p>Click on your language to view a full repository example and documentation specifics.</p>
@@ -95,7 +95,7 @@
         </p>
         <p>
           <i>How?</i> Codecov does not "override" report data for multiple uploads. We always merge the data.
-          Simply upload all there reports at once <b>or</b> seperately.
+          Simply upload all there !!!!! what do you mean? Three? or their? or the? !!!!! reports at once <b>or</b> seperately.
         </p>
         <h5>Single upload example</h5>
         <pre class="data src"><span class="o">$</span> coverage run tests/
@@ -133,7 +133,7 @@
         <p>Codecov searches for a <code>codecov.yml</code> within your repo to customize the products behavior.</p>
         <p>
           The <code>codecov.yml</code> is a file within your repository that
-          confugres Codecov to operate in a flexable and customized fasion.
+          confugres Codecov to operate in a flexible and customized fashion.
         </p>
 
         <h3 id="yaml-file-location"><a href="#yaml-file-location" class="anchor">&infin;</a> File Location</h3>
@@ -144,7 +144,7 @@
         </p>
 
         <h3 id="yaml-inheritance"><a href="#yaml-inheritance" class="anchor">&infin;</a> Inheritance</h3>
-        <p>Repository configuration inherits and overrides the content found in the teams codecov.yml and the default configuration provided by Codecov.</p>
+        <p>Repository configuration inherits and overrides the content found in the teams !!!!! do you mean team's?? !!!! codecov.yml and the default configuration provided by Codecov.</p>
         <div class="ui small steps">
           <div class="step">
             <div class="content">
@@ -179,7 +179,7 @@
         </div>
 
         <h3 id="yaml-structure"><a href="#yaml-structure" class="anchor">&infin;</a>Structure</h3>
-        <div class="ui info message">An interactive documentation is found on your repository setting page.</div>
+        <div class="ui info message">Interactive documentation can be found on your repository setting page.</div>
         <!-- <script src="https://gist.github.com/stevepeak/53bee7b2c326b24a9b4a.js"></script> -->
       </div>
       <div class="ui more spacing divider"></div>
@@ -203,7 +203,7 @@
 
         <h2 id="api-authorization"><a href="#api-authorization" class="anchor">&infin;</a> Authorization</h2>
         <p>
-          Provide a API access token to retrieve content relative to your account.
+          Provide a API access token to retrieve content related to your account.
         </p>
         <p>
           You can generate API tokens in your account page.
@@ -218,10 +218,10 @@
 
 
         <h2 id="api-rate-limit"><a href="#api-rate-limit" class="anchor">&infin;</a> Rate Limit</h2>
-        <p>We currently do not rate limit API requests, but may implement a system in the future.</p>
+        <p>We currently do not rate-limit API requests, but may implement a system in the future.</p>
         <!--
         <p>
-          If your account is rate limited Codecov will return a <code>HTTP 403 Rate Limited</code> status.
+          If your account is rate-limited, Codecov will return a <code>HTTP 403 Rate Limited</code> status.
           The following HTTP headers will be included on all API requests.
         </p>
         <pre class="data">X-RateLimit-Remaining: 823
@@ -244,7 +244,7 @@ X-RateLimit-Reset: 1460321144</pre>
         </div>
 
         <h3 id="api-teams"><a href="#api-teams" class="anchor">&infin;</a> Teams</h3>
-        <p>List all the teams you are member of.</p>
+        <p>List all the teams of which you are a member.</p>
         <pre class="data">GET /api/:service</pre>
 
         <h3 id="api-team"><a href="#api-team" class="anchor">&infin;</a> Repositories</h3>
@@ -287,7 +287,7 @@ X-RateLimit-Reset: 1460321144</pre>
       <div class="ui more spacing divider"></div>
       <div>
         <h1 id="yaml_default_branch"><a href="#yaml_default_branch" class="anchor">&infin;</a> Default Branch</h1>
-        <p>You can specify a custom default branch which is only used in the UI for nagigation.</p>
+        <p>You can specify a custom default branch that is only used in the UI for nagigation.</p>
         <p>Change your default branch in your <code>codecov.yml</code></p>
         <pre class="data"><span class="kc">codecov:</span>
   <span class="kc">branch:</span> <strong>develop</strong></pre>
@@ -298,7 +298,7 @@ X-RateLimit-Reset: 1460321144</pre>
         <h1 id="yaml_default_commit_status"><a href="#yaml_default_commit_status" class="anchor">&infin;</a> Default Commit Status</h1>
         <p>
           Codecov will enable three unique commit statuses by default (as seen below).
-          You can disable, change or create statuses at your own discression.
+          You can disable, change or create statuses at your own discretion.
         </p>
         <pre><span class="kc">coverage:</span>
   <span class="kc">status:</span>
@@ -323,7 +323,7 @@ X-RateLimit-Reset: 1460321144</pre>
         </p>
         <p>
           You can adjust the <code>default</code> statuses or create your own.
-          When you create your own you'll apply a custom context label.
+          You'll apply a custom context label when you create your own.
         </p>
         <pre><span class="kc">coverage:</span>
   <span class="kc">status:</span>
@@ -354,17 +354,17 @@ X-RateLimit-Reset: 1460321144</pre>
 
         <h3 id="flags-scope"><a href="#flags-scope" class="anchor">&infin;</a> Test Scopes</h3>
         <p><code>unittests</code>, <code>integration</code>, <code>regression</code>, <code>api</code> etc.</p>
-        <p>Customers whom group tests in categories above should append the desired flag during uploading.<p>
+        <p>Customers who group tests in categories above should append the desired flag during uploading.<p>
         <pre class="data src"><span class="o">$</span> coverage run tests/unittests
 <span class="o">$</span> bash &lt;(curl -s https://codecov.io/bash) <b>-F unittests</b>
 <span class="o">$</span> coverage run tests/integration
 <span class="o">$</span> bash &lt;(curl -s https://codecov.io/bash) <b>-F integration</b></pre>
         <p>
           In Codecov you can now view coverage data specific to <code>unittests</code> or <code>integration</code> flags.
-          Which is a step closer to understanding what test group hit what lines.
+          This is a step closer to understanding which test group hit which lines.
         </p>
         <p>
-          In you <code>codecov.yml</code> you can no create custom notifications or statuses based entirly on one or more flags.
+          In your <code>codecov.yml</code> you can now create custom notifications or statuses based entirely on one or more flags.
           <pre class="data src"><span class="kc">coverage:</span>
   <span class="kc">status:</span>
     <span class="kc">project:</span>
@@ -378,7 +378,7 @@ X-RateLimit-Reset: 1460321144</pre>
         <h3 id="flags-group"><a href="#flags-group" class="anchor">&infin;</a> Grouping Projects</h3>
         <p></p>
         <p>
-          In you <code>codecov.yml</code> you can no create custom notifications or statuses based entirly on one or more flags.
+          In your <code>codecov.yml</code> you can now create custom notifications or statuses based entirely on one or more flags.
           <pre class="data src"><span class="kc">coverage:</span>
   <span class="kc">notify:</span>
     <span class="kc">slack:</span>
@@ -403,11 +403,11 @@ X-RateLimit-Reset: 1460321144</pre>
         <h1 id="fixing_paths"><a href="#fixing_paths" class="anchor">&infin;</a> Fixing Paths</h1>
         <p>
           Coverage reports often do not have accurate relative paths to your repository files.
-          Codecov will attempt to fix these paths, and typically is successful at doing so.
-          But some projects have complex path names and Codecov is unable to fix the path properly.
+          Codecov will attempt to fix these paths, and is typically successful at doing so.
+          However, some projects have complex path names and Codecov is unable to fix the path properly.
         </p>
         <p>
-          To fix your paths you'll need to provide Codecov with a map of where paths should be fixed to.
+          To fix these paths you'll need to provide Codecov with a map of where to affix the paths.
         </p>
         <pre class="data src"><span class="kc">coverage:</span>
   <span class="kc">fixes:</span>
@@ -419,7 +419,7 @@ X-RateLimit-Reset: 1460321144</pre>
       <div>
         <h1 id="github-scope-policy"><a href="#github-scope-policy" class="anchor">&infin;</a> GitHub Scope Policy</h1>
         <p>
-          Upon first logging into Codecov we ask for the folling scope (considered "public" scope).
+          Upon first logging into Codecov we ask for the folling !!! what is folling? !!! scope (considered "public" scope).
           We request the following scopes from GitHub:
         </p>
         <p><code>user:email, read:org, repo:status, write:repo_hook</code></p>
@@ -430,7 +430,7 @@ X-RateLimit-Reset: 1460321144</pre>
         <p><code>user:email, read:org, repo:status, write:repo_hook, <b>repo</b></code></p>
         <p>Learn more about <a href="https://developer.github.com/v3/oauth/#scopes">GitHub Scopes here</a>.</p>
         <p>
-          Codecov <strong>never</strong> adjusts source code or behave in an unexpected manner.
+          Codecov <strong>never</strong> adjusts source code or !!!! this sentense seems weird to me !!!! behaves in an unexpected manner.
           We are very transparent about our <a href="/site/security">Security Policies</a>.
         </p>
       </div>
