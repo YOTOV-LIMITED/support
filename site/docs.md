@@ -130,7 +130,7 @@
       <div class="ui more spacing divider"></div>
       <div>
         <h1 id="configuration"><a href="#configuration" class="anchor">&infin;</a> Configuration</h1>
-        <p>Codecov searches for a <code>codecov.yml</code> within your repo to customize the products behavior.</p>
+        <p>Codecov searches for a <code>codecov.yml</code> within your repo to customize the product's behavior.</p>
         <p>
           The <code>codecov.yml</code> is a file within your repository that
           confugres Codecov to operate in a flexible and customized fashion.
