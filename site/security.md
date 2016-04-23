@@ -29,7 +29,7 @@
 - **Repo** a Service (public or private) repository
 - **User** a single person who has logged into Codecov via Service therefore has an active user session
 - **Guest** a http request performed without an active user sessions
-- **Worker** Codecov's sync back-end which handles uploading, report processing and other tasks
+- **Worker** Codecov's sync back-end which handles uploading, report processing, and other tasks
 - **Bot** the User who was chosen to consume Service endpoints during Worker jobs !!!should define Worker before using term here !!!!!
 - **Web** Codecov front-end service that handles page builds and all HTTP requests (GET, POST, etc.)
 - **Extension** the Codecov Browser Extension
