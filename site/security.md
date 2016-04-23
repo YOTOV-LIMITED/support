@@ -8,7 +8,7 @@
 1. [How does Codecov store passwords?](#how-does-codecov-store-passwords)
 1. [How does Codecov store Tokens?](#how-does-codecov-store-tokens)
 1. [Does Codecov store source code?](#does-codecov-store-source-code)
-1. [Is my Team data isolated from other Teams?](#is-my-team-data-isolated-from-other-teams)
+1. [Is my Team's data isolated from other Teams?](#is-my-teams-data-isolated-from-other-teams)
 1. [How do I add collaborators/members to my private repository?](#how-do-i-add-collaboratorsmembers-to-my-private-repository)
 1. [When does Codecov read source code from my repository?](#when-does-codecov-read-source-code-from-my-repository)
 1. [Does Codecov ever clone the repository?](#does-codecov-ever-clone-the-repository)
@@ -30,7 +30,7 @@
 - **User** a single person who has logged into Codecov via Service therefore has an active user session
 - **Guest** a http request performed without an active user sessions
 - **Worker** Codecov's sync back-end which handles uploading, report processing, and other tasks
-- **Bot** the User who was chosen to consume Service endpoints during Worker jobs !!!should define Worker before using term here !!!!!
+- **Bot** the User who was chosen to consume Service endpoints during Worker tasks
 - **Web** Codecov front-end service that handles page builds and all HTTP requests (GET, POST, etc.)
 - **Extension** the Codecov Browser Extension
 - **Token** a Users auth token/secret granted by Service upon logging-in to Codecov
@@ -142,14 +142,14 @@ The only times Codecov will "write" to your repository is in the following proce
 
 
 ## Are logs kept on who accesses what data on Codecov?
-Yes. Each and every Web request is logged for up to one year. !!!! Saying both "up to" and "or more than" makes no sense. Which is it? Also note, if you use "more than", make sure you say "than" instead of "then" !!!!
-Logs are accessible by Codecov staff and are used to analyze User behavior and help debug the product. !!! if you want to capitalize "Staff", include it in the terms" !!!!!
+Yes. Each and every Web request is logged for a period of one year or longer.
+Logs are accessible by Codecov staff and are used to analyze User behavior and help debug the product.
 
 
 ## Who can adjust the Team configuration?
 The following can adjust team configuration:
 
-a. the User, if the account is their own, **OR**
+a. the User, if the account is their own profile, **OR**
 b. a Codecov Team Admin, **OR**
 c. the first User to create a billing account for the Team, **OR**
 d. a User with `admin` status according to Service
@@ -160,9 +160,9 @@ d. a User with `admin` status according to Service
 
 
 ## Who can adjust billing/plans information?
-THe following can adjust billing/plans information:
+The following can adjust billing/plan information:
 
-a. the User, if the account is their own, **OR**
+a. the User, if the account is their own profile, **OR**
 b. a Codecov Team Admin, **OR**
 c. the first User to create a billing account for the Team, **OR**
 d. a User with `admin` status according to Service

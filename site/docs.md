@@ -47,7 +47,21 @@
     <div class="column eleven wide spacing">
       <div>
         <h1 id="overview"><a href="#overview" class="anchor">&infin;</a> Overview</h1>
-        <p>Thank you for choosing Codecov. We work hard to provide a powerful solution to help your team test !!!Please clarify. "test analyze" makes no sense to me!!! analyze coverage reports.</p>
+        <p>
+          Thank you for choosing Codecov.
+          We work hard to provide a powerful solution to help your team analyze coverage reports.
+        </p>
+        <p>
+          Codecov gathers the coverage reports, from all languages, and aggregate the results in a single cohesive report.
+          Then we dig deeping into the reports by comparing history to discover issues and changes
+          reporting this information back the developer to ensure code quality.
+        </p>
+        <p>
+          We do this all with high integration into your workflow.
+          The Codecov Browser Extention brings the coverage reports directly into GitHub for a
+          seamless workflow enhancement. Coupled with our amazing pull request comment and
+          three powerful commit statuses your product will be well covered.
+        </p>
       </div>
       <div class="ui more spacing divider"></div>
       <div>
@@ -95,7 +109,7 @@
         </p>
         <p>
           <i>How?</i> Codecov does not "override" report data for multiple uploads. We always merge the data.
-          Simply upload all there !!!!! what do you mean? Three? or their? or the? !!!!! reports at once <b>or</b> seperately.
+          Simply upload all three reports at once <b>or</b> seperately.
         </p>
         <h5>Single upload example</h5>
         <pre class="data src"><span class="o">$</span> coverage run tests/
@@ -144,7 +158,7 @@
         </p>
 
         <h3 id="yaml-inheritance"><a href="#yaml-inheritance" class="anchor">&infin;</a> Inheritance</h3>
-        <p>Repository configuration inherits and overrides the content found in the teams !!!!! do you mean team's?? !!!! codecov.yml and the default configuration provided by Codecov.</p>
+        <p>Repository configuration inherits and overrides the content found in the Team's `codecov.yml` and the default configuration provided by Codecov.</p>
         <div class="ui small steps">
           <div class="step">
             <div class="content">
@@ -419,20 +433,15 @@ X-RateLimit-Reset: 1460321144</pre>
       <div>
         <h1 id="github-scope-policy"><a href="#github-scope-policy" class="anchor">&infin;</a> GitHub Scope Policy</h1>
         <p>
-          Upon first logging into Codecov we ask for the folling !!! what is folling? !!! scope (considered "public" scope).
-          We request the following scopes from GitHub:
+          Codecov will first ask for <code>user:email, read:org, repo:status, write:repo_hook</code> scope
+          which is only grants access to public data and repositories.
         </p>
-        <p><code>user:email, read:org, repo:status, write:repo_hook</code></p>
         <p>You may elect to give Codecov extender permissions (considered "private" scope).
           This increased scope is required in order to view and interact with private repositories on Codecov.
           We request the following scopes from GitHub:
         </p>
         <p><code>user:email, read:org, repo:status, write:repo_hook, <b>repo</b></code></p>
         <p>Learn more about <a href="https://developer.github.com/v3/oauth/#scopes">GitHub Scopes here</a>.</p>
-        <p>
-          Codecov <strong>never</strong> adjusts source code or !!!! this sentense seems weird to me !!!! behaves in an unexpected manner.
-          We are very transparent about our <a href="/site/security">Security Policies</a>.
-        </p>
       </div>
       <div class="ui more spacing divider"></div>
       <div>
