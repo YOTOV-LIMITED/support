@@ -23,6 +23,7 @@
         <div class="ui link list">
           <a href="#github-scope-policy" class="item">GitHub Scope Policy</a>
           <a href="#bitbucket-compare" class="item">Bitbucket Compare</a>
+          <a href="#requires-checked-in-files" class="item">Requires checked-in files</a>
         </div>
         <h3>Meta</h3>
         <div class="ui link list">
@@ -436,12 +437,16 @@ X-RateLimit-Reset: 1460321144</pre>
           Codecov will first ask for <code>user:email, read:org, repo:status, write:repo_hook</code> scope
           which is only grants access to public data and repositories.
         </p>
-        <p>You may elect to give Codecov extender permissions (considered "private" scope).
+        <p>
+          You may elect to give Codecov extender permissions (considered "private" scope).
           This increased scope is required in order to view and interact with private repositories on Codecov.
-          We request the following scopes from GitHub:
+          We request the following scopes from GitHub: <code>user:email, read:org, repo:status, write:repo_hook, <b>repo</b></code>.
         </p>
-        <p><code>user:email, read:org, repo:status, write:repo_hook, <b>repo</b></code></p>
         <p>Learn more about <a href="https://developer.github.com/v3/oauth/#scopes">GitHub Scopes here</a>.</p>
+        <p>
+          GitHub, Bitbucket and GitLab do not support selecting which organization you would like Codecov to interact with.
+          When signing-up with Codecov you review the permissions Codecov will be granted before completing your sign-up.
+        </p>
       </div>
       <div class="ui more spacing divider"></div>
       <div>
@@ -455,6 +460,19 @@ X-RateLimit-Reset: 1460321144</pre>
           <a href="https://bitbucket.org/site/master/issues/4779/ability-to-diff-between-any-two-commits">thread in Bitbucket Suppport</a>.
         </p>
         <p>Only affects Bitbucket. Bitbucket Server and Stash have full support available.</p>
+      </div>
+      <div class="ui more spacing divider"></div>
+      <div>
+        <h1 id="requires-checked-in-files"><a href="#requires-checked-in-files" class="anchor">&infin;</a> Required checked-in files</h1>
+        <p>Files in Codecov are required to be checked into `git/hg` in order to be tracked by Codecov.</p>
+        <p>
+          Since Codecov does not store source code we depend on the Service (GitHub, Bitbucket and GitLab) API's to retrieve source code,
+          produce diffs, and track line changes.
+        </p>
+        <p>
+          We are considering adding support for files not checked into `git` in the future.
+          Please contact us if this limitation impacts your code base.
+        </p>
       </div>
     </div>
   </div>
