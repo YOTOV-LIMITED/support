@@ -41,7 +41,7 @@
           <a href="/site/security" class="item">Security</a>
         </div>
         <p class="text-center">
-          <a href="https://github.com/codecov/support/site/docs.md" class="ui mini label">Edit in Github</a>
+          <a href="https://github.com/codecov/support/blob/master/site/docs.md" class="ui mini label">Edit in Github</a>
         </p>
       </div>
     </div>
