@@ -165,7 +165,7 @@
             <div class="content">
               <div class="title">Defaults</div>
               <div class="description">
-                <a href="https://github.com/codecov/support/src/master/codecov.yml">Review here</a>
+                <a href="https://github.com/codecov/support/blob/master/codecov.yml">Review here</a>
               </div>
             </div>
           </div>
