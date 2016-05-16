@@ -1,6 +1,6 @@
 # Codecov Privacy Policy
 
-> v2.0.0 - effective April 24th, 2016 - [History on GitHub](https://github.com/codecov/support/blob/master/site/privacy.md)
+> v2.0.1 - effective April 24th, 2016 - [History on GitHub](https://github.com/codecov/support/blob/master/site/privacy.md)
 
 Thank you for visiting Codecov.io (our “Site”). Whether you are checking out our offerings or actively using our services (collectively, the “Services”), your privacy is important to us. As such, we provide this privacy policy (“Privacy Policy”) to describe our online information practice and the choices you can make about the way your information is collected and used by us.
 
@@ -33,7 +33,8 @@ We may use the Information to:
 - Enhance the Services, including to build new features.
 
 We may use “cookies” or similar technologies to associate certain of the Information with a unique identifier that then associates the Information with your device or browser. We may use cookies or similar technologies in order to enhance and personalize your experience on our Services, including to help authenticate you when you use our Services; to remember your preferences and registration information, and to present and help measure and research the effectiveness of our Services, and email communications and to customize the content and advertisements provided to you through our Services.
-III. Information Sharing and Disclosure
+
+## Information Sharing and Disclosure
 
 ### We may disclose the Information as follows:
 1. To service providers that we have engaged to perform business-related functions on our behalf. This may include service providers that:
