@@ -1,6 +1,6 @@
 # Terms of Use
 
-> v0.1.1 - effective April 24th, 2016 - [History on GitHub](https://github.com/codecov/support/blob/master/site/terms.md)
+> v0.1.2 - effective April 24th, 2016 - [History on GitHub](https://github.com/codecov/support/blob/master/site/terms.md)
 
 > Codecov LLC operating as Codecov at codecov.io website ("Services"). By accessing or using the Codecov website ("Codecov"/"Site"/"we"/"us"), you acknowledge and agree to the disclaimers, terms and conditions set forth in this Agreement. By using the site or by subscribing for or purchasing any Codecov Service, you are agreeing to this Agreement.
 
@@ -13,7 +13,8 @@
 # User Content
 "User Content" is defined as all information, data, text, messages or other materials, uploaded, posted or transmitted to the Service by viewers or users.
 - Codecov will never sell, distribute or license User Content.
-- Codecov never stores or retains copies of repository source-code.
+- Codecov never stores or retains copies of repository source-code, exceptions to apply.
+  - Source code may be included in uploaded coverage reports which are removed after 1 month of being archived.
 
 # Account Registration
 - You must login through a Provider to complete the sign up process.
