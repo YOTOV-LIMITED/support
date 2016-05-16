@@ -1,12 +1,12 @@
 # Terms of Use
 
-> v0.1.0 - effective April 24th, 2016 - [History on GitHub](https://github.com/codecov/support/blob/master/site/terms.md)
+> v0.1.1 - effective April 24th, 2016 - [History on GitHub](https://github.com/codecov/support/blob/master/site/terms.md)
 
 > Codecov LLC operating as Codecov at codecov.io website ("Services"). By accessing or using the Codecov website ("Codecov"/"Site"/"we"/"us"), you acknowledge and agree to the disclaimers, terms and conditions set forth in this Agreement. By using the site or by subscribing for or purchasing any Codecov Service, you are agreeing to this Agreement.
 
 # Services
 - Codecov is free to access and install our plugins.
-- Codecov requires every repositories source-code to be hosted on GitHub, GitHub Enterprise or Bitbucket ("Providers","Provider").
+- Codecov requires every repositories source-code to be hosted on GitHub, GitLab or Bitbucket ("Providers","Provider").
 - You may access open-source public repositories without completing the sign up process.
 - You must complete the sign up process to 1) access private repository source-code and 2) obtain permission as determined by the Provider.
 
