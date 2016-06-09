@@ -96,6 +96,7 @@
           <a class="item" href="https://github.com/codecov/example-ruby">Ruby</a>
           <a class="item" href="https://github.com/codecov/example-scala">Scala</a>
           <a class="item" href="https://github.com/codecov/example-swift">Swift</a>
+          <a class="item" href="https://github.com/codecov/example-typescript">Typescript</a>
           <a class="item" href="https://github.com/codecov/example-xtend">XTend</a>
         </div>
         <div class="ui message">Don't see your language? We can add it with your help. <a href="/support">Please contact us.</a></div>
