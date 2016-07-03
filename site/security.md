@@ -176,4 +176,4 @@ d. a User with `admin` status according to Service
 Most Repo configuration is recorded in a file called `codecov.yml` within the Repo.
 The location of this configuration file may be anywhere within the Repo and must be named `codecov.yml` or `.codecov.yml` in order to be detected.
 Having configuration stored in the `codecov.yml` allows for complete transparency and version controlled configuration.
-For more details please visit http://localhost:8888/docs#configuration
+For more details please visit [https://codecov.io/docs#configuration](https://codecov.io/docs#configuration)
