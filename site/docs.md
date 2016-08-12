@@ -54,7 +54,7 @@
         </p>
         <p>
           Codecov gathers the coverage reports, from all languages, and aggregate the results in a single cohesive report.
-          Then we dig deeping into the reports by comparing history to discover issues and changes
+          Then we dig deep into the reports by comparing history to discover issues and changes
           reporting this information back the developer to ensure code quality.
         </p>
         <p>
