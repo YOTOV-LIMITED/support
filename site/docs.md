@@ -22,7 +22,6 @@
         <h3>Caveats</h3>
         <div class="ui link list">
           <a href="#github-scope-policy" class="item">GitHub Scope Policy</a>
-          <a href="#bitbucket-compare" class="item">Bitbucket Compare</a>
           <a href="#requires-checked-in-files" class="item">Requires checked-in files</a>
         </div>
         <h3>Meta</h3>
@@ -448,19 +447,6 @@ X-RateLimit-Reset: 1460321144</pre>
           GitHub, Bitbucket and GitLab do not support selecting which organization you would like Codecov to interact with.
           When signing-up with Codecov you review the permissions Codecov will be granted before completing your sign-up.
         </p>
-      </div>
-      <div class="ui more spacing divider"></div>
-      <div>
-        <h1 id="bitbucket-compare"><a href="#bitbucket-compare" class="anchor">&infin;</a> Bitbucket Compare</h1>
-        <p>
-          Bitbucket currently <strong>does not support</strong> retrieving a diff between two commit references.
-          This lack of support is <strong>crucial</strong> to many of Codecov's internal operations.
-        </p>
-        <p>
-          We are waiting for support which can be tracked in this
-          <a href="https://bitbucket.org/site/master/issues/4779/ability-to-diff-between-any-two-commits">thread in Bitbucket Suppport</a>.
-        </p>
-        <p>Only affects Bitbucket. Bitbucket Server and Stash have full support available.</p>
       </div>
       <div class="ui more spacing divider"></div>
       <div>
